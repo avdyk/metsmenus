@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_BLycAa-wEeGY45VMIYai5A" name="model">
+  <packageMerge xmi:id="_VcAskK-zEeGY45VMIYai5A"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_H2EisK-wEeGY45VMIYai5A" name="Utilisateur non connecté" clientDependency="_MunUEK-yEeGY45VMIYai5A"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IJ06QK-yEeGY45VMIYai5A" name="Création d'un nouveau compte">
+    <extensionPoint xmi:id="_BrTswK-0EeGY45VMIYai5A" name="typeCompte"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MunUEK-yEeGY45VMIYai5A" name="Usage0" supplier="_IJ06QK-yEeGY45VMIYai5A" client="_H2EisK-wEeGY45VMIYai5A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PEIZ8K-yEeGY45VMIYai5A" name="" memberEnd="_PEJBAK-yEeGY45VMIYai5A _PEJBA6-yEeGY45VMIYai5A">
+    <ownedEnd xmi:id="_PEJBAK-yEeGY45VMIYai5A" name="utilisateur non connecté" type="_H2EisK-wEeGY45VMIYai5A" association="_PEIZ8K-yEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PEJBAa-yEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PEJBAq-yEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_PEJBA6-yEeGY45VMIYai5A" name="création d'un nouveau compte" type="_IJ06QK-yEeGY45VMIYai5A" association="_PEIZ8K-yEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PEJBBK-yEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PEJBBa-yEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RifSwK-yEeGY45VMIYai5A" name="Demande un mot de passe"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VbxRcK-yEeGY45VMIYai5A" name="" memberEnd="_VbxRca-yEeGY45VMIYai5A _VbxRdK-yEeGY45VMIYai5A">
+    <ownedEnd xmi:id="_VbxRca-yEeGY45VMIYai5A" name="utilisateur non connecté" type="_H2EisK-wEeGY45VMIYai5A" association="_VbxRcK-yEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VbxRcq-yEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VbxRc6-yEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_VbxRdK-yEeGY45VMIYai5A" name="demande un mot de passe" type="_RifSwK-yEeGY45VMIYai5A" association="_VbxRcK-yEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VbxRda-yEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VbxRdq-yEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WWfNQK-yEeGY45VMIYai5A" name="Informations sur le site"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YgF-EK-yEeGY45VMIYai5A" name="" memberEnd="_YgGlIK-yEeGY45VMIYai5A _YgGlI6-yEeGY45VMIYai5A">
+    <ownedEnd xmi:id="_YgGlIK-yEeGY45VMIYai5A" name="utilisateur non connecté" type="_H2EisK-wEeGY45VMIYai5A" association="_YgF-EK-yEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YgGlIa-yEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YgGlIq-yEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_YgGlI6-yEeGY45VMIYai5A" name="informations sur le site" type="_WWfNQK-yEeGY45VMIYai5A" association="_YgF-EK-yEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YgGlJK-yEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YgGlJa-yEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_AKoZoK-zEeGY45VMIYai5A" name="Connexion au site">
+    <extend xmi:id="_v00MUK-zEeGY45VMIYai5A" extendedCase="_oWR-MK-zEeGY45VMIYai5A" extensionLocation="_v1rH8K-zEeGY45VMIYai5A"/>
+    <extensionPoint xmi:id="_mNKVkK-zEeGY45VMIYai5A" name="typeConnexion"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EzT08K-zEeGY45VMIYai5A" name="" memberEnd="_EzT08a-zEeGY45VMIYai5A _EzT09K-zEeGY45VMIYai5A">
+    <ownedEnd xmi:id="_EzT08a-zEeGY45VMIYai5A" name="utilisateur non connecté" type="_H2EisK-wEeGY45VMIYai5A" association="_EzT08K-zEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EzT08q-zEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EzT086-zEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_EzT09K-zEeGY45VMIYai5A" name="connexion au site" type="_AKoZoK-zEeGY45VMIYai5A" association="_EzT08K-zEeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EzT09a-zEeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EzT09q-zEeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oWR-MK-zEeGY45VMIYai5A" name="GoogleConnector">
+    <extend xmi:id="_z8gacK-zEeGY45VMIYai5A" extendedCase="_AKoZoK-zEeGY45VMIYai5A" extensionLocation="_mNKVkK-zEeGY45VMIYai5A"/>
+    <extend xmi:id="_7Kd18K-zEeGY45VMIYai5A" extendedCase="_AKoZoK-zEeGY45VMIYai5A" extensionLocation="_mNKVkK-zEeGY45VMIYai5A"/>
+    <extend xmi:id="_FVRdEK-0EeGY45VMIYai5A" extendedCase="_IJ06QK-yEeGY45VMIYai5A" extensionLocation="_BrTswK-0EeGY45VMIYai5A"/>
+    <extensionPoint xmi:id="_v1rH8K-zEeGY45VMIYai5A" name="point"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_q4QywK-zEeGY45VMIYai5A" name="FacebookConnector">
+    <include xmi:id="_96qFoK-zEeGY45VMIYai5A" addition="_AKoZoK-zEeGY45VMIYai5A"/>
+    <extend xmi:id="__fJXMK-zEeGY45VMIYai5A" extendedCase="_AKoZoK-zEeGY45VMIYai5A" extensionLocation="_mNKVkK-zEeGY45VMIYai5A"/>
+    <extend xmi:id="_GYEW0K-0EeGY45VMIYai5A" extendedCase="_IJ06QK-yEeGY45VMIYai5A" extensionLocation="_BrTswK-0EeGY45VMIYai5A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_P0AFwK-0EeGY45VMIYai5A" name="TwitterConnector">
+    <extend xmi:id="_SsIwgK-0EeGY45VMIYai5A" extendedCase="_IJ06QK-yEeGY45VMIYai5A" extensionLocation="_BrTswK-0EeGY45VMIYai5A"/>
+    <extend xmi:id="_Upl7sK-0EeGY45VMIYai5A" extendedCase="_AKoZoK-zEeGY45VMIYai5A" extensionLocation="_mNKVkK-zEeGY45VMIYai5A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_drFKUK-0EeGY45VMIYai5A" name="Utilisateur connecté"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fLvEwK-0EeGY45VMIYai5A" name="Gestion du profile utilisateur"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gyzwQK-0EeGY45VMIYai5A" name="Gestion des menus"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jpm-QK-0EeGY45VMIYai5A" name="Déconnexion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nE9q0K-0EeGY45VMIYai5A" name="Afficher les menus du mois"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r2dq8K-0EeGY45VMIYai5A" name="A_client connecté_gestion du profile" memberEnd="_r2dq8a-0EeGY45VMIYai5A _r2dq9K-0EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_r2dq8a-0EeGY45VMIYai5A" name="client connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_r2dq8K-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r2dq8q-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r2dq86-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_r2dq9K-0EeGY45VMIYai5A" name="gestion du profile" type="_fLvEwK-0EeGY45VMIYai5A" association="_r2dq8K-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r2dq9a-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r2dq9q-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_spj70K-0EeGY45VMIYai5A" name="A_client connecté_gestion des menus" memberEnd="_spj70a-0EeGY45VMIYai5A _spj71K-0EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_spj70a-0EeGY45VMIYai5A" name="client connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_spj70K-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_spj70q-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_spj706-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_spj71K-0EeGY45VMIYai5A" name="gestion des menus" type="_gyzwQK-0EeGY45VMIYai5A" association="_spj70K-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_spj71a-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_spj71q-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tseKUK-0EeGY45VMIYai5A" name="A_client connecté_afficher les menus du mois" memberEnd="_tseKUa-0EeGY45VMIYai5A _tseKVK-0EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_tseKUa-0EeGY45VMIYai5A" name="client connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_tseKUK-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tseKUq-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tseKU6-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_tseKVK-0EeGY45VMIYai5A" name="afficher les menus du mois" type="_nE9q0K-0EeGY45VMIYai5A" association="_tseKUK-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tseKVa-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tseKVq-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uzhR8K-0EeGY45VMIYai5A" name="A_client connecté_déconnexion" memberEnd="_uzhR8a-0EeGY45VMIYai5A _uzhR9K-0EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_uzhR8a-0EeGY45VMIYai5A" name="client connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_uzhR8K-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uzhR8q-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uzhR86-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_uzhR9K-0EeGY45VMIYai5A" name="déconnexion" type="_jpm-QK-0EeGY45VMIYai5A" association="_uzhR8K-0EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uzhR9a-0EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uzhR9q-0EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GCgu0K-6EeGY45VMIYai5A" name="Changement mot de passe"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ICY74K-6EeGY45VMIYai5A" name="Suppression du compte"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Jhc64K-6EeGY45VMIYai5A" name="Ajouter un compte Marmittons"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ObjdYK-6EeGY45VMIYai5A" name="Ajouter un profile de connexion"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_i0eeUK-6EeGY45VMIYai5A" name="A_utilisateur connecté_changement mot de passe" memberEnd="_i0eeUa-6EeGY45VMIYai5A _i0eeVK-6EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_i0eeUa-6EeGY45VMIYai5A" name="utilisateur connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_i0eeUK-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i0eeUq-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i0eeU6-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_i0eeVK-6EeGY45VMIYai5A" name="changement mot de passe" type="_GCgu0K-6EeGY45VMIYai5A" association="_i0eeUK-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i0eeVa-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i0eeVq-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kr5S8K-6EeGY45VMIYai5A" name="A_utilisateur connecté_suppression du compte" memberEnd="_kr5S8a-6EeGY45VMIYai5A _kr5S9K-6EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_kr5S8a-6EeGY45VMIYai5A" name="utilisateur connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_kr5S8K-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kr5S8q-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kr5S86-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_kr5S9K-6EeGY45VMIYai5A" name="suppression du compte" type="_ICY74K-6EeGY45VMIYai5A" association="_kr5S8K-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kr5S9a-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kr5S9q-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ls2ZoK-6EeGY45VMIYai5A" name="A_utilisateur connecté_ajouter un compte marmittons" memberEnd="_ls2Zoa-6EeGY45VMIYai5A _ls2ZpK-6EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_ls2Zoa-6EeGY45VMIYai5A" name="utilisateur connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_ls2ZoK-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ls2Zoq-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ls2Zo6-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ls2ZpK-6EeGY45VMIYai5A" name="ajouter un compte marmittons" type="_Jhc64K-6EeGY45VMIYai5A" association="_ls2ZoK-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ls2Zpa-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ls2Zpq-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_m3lucK-6EeGY45VMIYai5A" name="A_utilisateur connecté_ajouter un profile de connexion" memberEnd="_m3luca-6EeGY45VMIYai5A _m3ludK-6EeGY45VMIYai5A">
+    <ownedEnd xmi:id="_m3luca-6EeGY45VMIYai5A" name="utilisateur connecté" type="_drFKUK-0EeGY45VMIYai5A" association="_m3lucK-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m3lucq-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m3luc6-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_m3ludK-6EeGY45VMIYai5A" name="ajouter un profile de connexion" type="_ObjdYK-6EeGY45VMIYai5A" association="_m3lucK-6EeGY45VMIYai5A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m3luda-6EeGY45VMIYai5A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m3ludq-6EeGY45VMIYai5A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
